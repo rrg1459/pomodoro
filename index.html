@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="author" content="Rafael Rodriguez Garcia">
+	<title>Pomodoro</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			Minutes
+		</div>
+
+		<div class='row'>
+			<div class="control-20">
+				<div>for Work</div>
+			</div>
+			<div class="control-20"></div>
+			<div class="control-20">
+				<div>for Break</div>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class="control-20">
+				<button id="workUp">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</button>
+			</div>
+			<div class="control-20"></div>
+			<div class="control-20">
+				<button id="breakUp">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</button>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class="control-20">
+				<display id="workTime" class = "large">
+					25
+				</display>
+			</div>
+			<div class="control-20"></div>
+			<div class="control-20">
+				<display id="breakTime" class = "large">
+					5
+				</display>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class="control-20">
+				<button id="workDown">
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</button>
+			</div>
+			<div class="control-20"></div>
+			<div class="control-20">
+				<button id="breakDown">
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</button>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class="titleTime">
+				<display id="tTime">
+					Work Time
+				</display>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="minutesTime">
+				<display id="timer">
+					25:00
+				</display>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class="col-20">
+				<button id="playpause" class="large">
+					<span class="glyphicon glyphicon-play"></span>
+				</button>
+			</div>
+			<div class="col-20">
+				<button id="refresh" class="large">
+					<span class="glyphicon glyphicon-refresh"></span>
+				</button>
+			</div>
+		</div>
+
+	<script src="app.js"></script>
+
+</body>
+</html>
+
+
+

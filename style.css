@@ -1,0 +1,75 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: auto;
+}
+
+.header {
+	text-align: center;
+	font-size: 28px;
+}
+.titleTime {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.minutesTime {
+	text-shadow: 1.5px 1.5px .2rem #666666;
+	text-align: center;
+	font-size: 48px;
+	font-style: italic;
+}
+
+.container {
+	width: 600px;
+	padding: 5%;
+}
+
+.row {
+	justify-content: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.col-20 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 20%;
+}
+
+.control-20 {
+	text-align: center;
+	width: 20%;
+}
+
+.large {
+	font-size: 30px;
+}
+
+button {
+	font-size: 25px;
+	color: #333333;
+	background: transparent;
+	border: 0;
+}
+
+button:hover {
+	color: #000000;
+	text-shadow: 2px 2px .2rem #666666;
+}
+
+button:active,
+button:focus {
+	outline: none;
+}
+
+button:active {
+	transform: translate(1.5px, 1.5px);
+	box-shadow: none;
+}
